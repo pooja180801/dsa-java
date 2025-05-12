@@ -20,7 +20,7 @@ class SelectionSortImp{
 public class SelectionSort {
     public static void main(String[] args) {
         int[] arr = {10,5,26,7,15,2,55};
-        SelectionSortImp.sort(arr);
+        BubbleSortImp.sort(arr);
         System.out.println(Arrays.toString(arr));
     }
 }
